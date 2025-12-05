@@ -47,7 +47,8 @@ const BuyCredit = () => {
             return;
           }
 
-      const {data} = await axios.post(backendUrl + '/api/user/pay-razor', {planId , userId: user._id }, {headers : {token}});
+    const { data } = await axios.post(backendUrl + "/api/user/pay-razor",{ planId }, { headers: { token } });
+
 
       console.log("RESPONSE FROM BACKEND:", data);
       console.log("RAZORPAY KEY:", import.meta.env.VITE_RAZORPAY_KEY_ID);
