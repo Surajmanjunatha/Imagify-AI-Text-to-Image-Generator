@@ -6,7 +6,7 @@ A full-stack MERN + Vite application that converts text prompts into high-qualit
 
 (Add your screenshots here)
 
-<p align="center"> <img src="assets/screenshot1.png" width="80%" alt="Screenshot 1"/> </p> <p align="center"> <img src="assets/screenshot2.png" width="80%" alt="Screenshot 2"/> </p> <p align="center"> <img src="assets/screenshot3.png" width="80%" alt="Screenshot 3"/> </p><p align="center"> <img src="assets/screenshot4.png" width="80%" alt="Screenshot 3"/> </p>
+<p align="center"> <img src="client/src/assets/screenshot1.png" width="80%" alt="Screenshot 1"/> </p> <p align="center"> <img src="client/src/assets/screenshot2.png" width="80%" alt="Screenshot 2"/> </p> <p align="center"> <img src="client/src/assets/screenshot3.png" width="80%" alt="Screenshot 3"/> </p><p align="center"> <img src="client/src/assets/screenshot4.png" width="80%" alt="Screenshot 3"/> </p>
 ⭐ Project Overview (STAR Approach)
 ⭐ Project Overview (STAR Approach)
 Situation
