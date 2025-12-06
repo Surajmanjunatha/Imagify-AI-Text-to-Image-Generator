@@ -31,7 +31,7 @@
 
 ---
 ## 🚀 The project is live on  
-[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-blue?logo=render)](https://imagify-ai-text-to-image-generator-woww.onrender.com/)
+👉 [Click here to view the live site][![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-blue?logo=render)](https://imagify-ai-text-to-image-generator-woww.onrender.com/)
 
 # ⭐ **Project Overview (STAR Method)**
 
