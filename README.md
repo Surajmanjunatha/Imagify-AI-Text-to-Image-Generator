@@ -1,180 +1,212 @@
-📸 Imagify — AI Text-to-Image Generator SaaS
+# 🌟 **IMAGIFY — AI TEXT-TO-IMAGE SAAS**
 
-A full-stack MERN + Vite application that converts text prompts into high-quality AI images using the ClipDrop API, featuring JWT authentication, a credit-based system, and Razorpay payment integration.
+<p align="center">
+  <img src="client/src/assets/logo.svg" alt="Imagify Hero Banner" width="100%">
+</p>
 
-🖼 Project Screenshots
+> *Turn your words into stunning visuals — powered by ClipDrop AI and built with MERN + Vite.*
 
-(Add your screenshots here)
+---
 
-<p align="center"> <img src="client/src/assets/screenshot1.png" width="80%" alt="Screenshot 1"/> </p> <p align="center"> <img src="client/src/assets/screenshot2.png" width="80%" alt="Screenshot 2"/> </p> <p align="center"> <img src="client/src/assets/screenshot3.png" width="80%" alt="Screenshot 3"/> </p><p align="center"> <img src="client/src/assets/screenshot4.png" width="80%" alt="Screenshot 3"/> </p>
-⭐ Project Overview (STAR Approach)
-⭐ Project Overview (STAR Approach)
-Situation
+# 🔖 **Tech Stack Badges**
 
-Generating high-quality visuals quickly is still challenging and expensive. Many AI tools lack smooth UX, affordable credits, or a beginner-friendly workflow. Imagify was created to solve this by providing a clean, secure, credit-based AI image generator.
+<p align="center">
 
-Task
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" />
+<img src="https://img.shields.io/badge/ClipDrop%20API-FF6C37?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Framer%20Motion-E415A8?style=for-the-badge&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/React--Toastify-FF9800?style=for-the-badge" />
 
-Build a scalable SaaS application where users can:
+</p>
 
-Register and log in securely
+---
 
-Generate AI images using text prompts
+# 🎥 **GIF Demo**
 
-Use 5 free credits on signup
+<p align="center">
+  <img src="assets/imagify-demo.gif" alt="Imagify Demo GIF" width="80%">
+</p>
 
-Purchase extra credits via Razorpay
+---
 
-View and store transaction details
+# 🖼 **Screenshots (4-Image Collage)**
 
-Enjoy smooth animations and notifications
+<p align="center">
+  <img src="client/src/assets/screenshot1.png" width="45%" />
+  <img src="client/src/assets/screenshot2.png" width="45%" />
+</p>
 
-Action
-🔐 Authentication
+<p align="center">
+  <img src="client/src/assets/screenshot3.png" width="45%" />
+  <img src="client/src/assets/screenshot4.png" width="45%" />
+</p>
 
-Implemented JWT-based login/signup
+---
 
-Added route protection middleware (auth.js)
+# ⭐ **Project Overview (STAR Method)**
 
-🗄 Backend (Express + MongoDB)
+## **S — Situation**
 
-Set up mongodb.js for database connection
+Creating visuals often requires skill, time, and design tools. Many AI image tools are expensive or lack a smooth credit-based workflow. Imagify solves this with a simple, powerful, credit-based AI image generator.
 
-Created models: usermodel.js & transactionModel.js
+---
 
-Added controllers: userController.js, imageController.js
+## **T — Task**
 
-Organized API routes in userRoutes.js and imageRoutes.js
+Build a SaaS where users can:
 
-🤖 AI Image Generation
+* Register/login securely
+* Generate AI images from prompts
+* Get 5 free credits on signup
+* Buy more credits using Razorpay
+* Store user & transaction data in MongoDB
+* Enjoy smooth UI animations
 
-Integrated ClipDrop Image Generation API
+---
 
-Added credit deduction logic (1 credit per image)
+## **A — Action**
 
-💳 Razorpay Payment Integration
+### 🔐 Implemented Authentication
 
-Added 3 prepaid credit plans
+* JWT-based login/signup
+* Protected backend routes with middleware
 
-Created/verified orders securely
+### 🧩 Backend Architecture
 
-Stored transactions in MongoDB
+* Node + Express for APIs
+* MongoDB connection via `mongodb.js`
+* Controllers for images & users
+* Separate route files for clean structure
 
-🎨 Frontend (React + Vite)
+### 🤖 ClipDrop AI Integration
 
-Built the UI using React with Vite bundler for fast development
+* Converts text prompts into professional images
+* Deducts credits automatically
 
-Added Framer Motion for animations
+### 💳 Razorpay Payment Gateway
 
-Added React-Toastify for messages
+* Three credit plans
+* Verified payments server-side
+* Stores transactions to MongoDB
 
-Organized UI into assets, components, context, and pages folders
+### 🎨 Frontend (React + Vite)
 
-Result
+* Fast UI builds via Vite
+* Framer Motion animations
+* Toast notifications
+* Context API for auth & credits
+* Organized as pages, components & assets
 
-Imagify now delivers:
+---
 
-Fast text-to-image transformations
+## **R — Result**
 
-Reliable JWT auth & state management
+Imagify delivers:
 
-Razorpay-powered transactions
+* ⚡ Instant text-to-image generation
+* 🔐 Secure JWT-protected workflows
+* 💳 Real Razorpay payment integration
+* ✔️ Clean UI with animations
+* 🔄 Full credit system & transaction history
 
-Smooth UI animations & feedback
+A fully functional SaaS project demonstrating real-world payment flow, authentication, API integration & scalable architecture.
 
-Scalable backend & modular codebase
+---
 
-This showcases full-stack SaaS development, API usage, payment workflows, and production-level architecture.
+# 🚀 **Features**
 
-🚀 Features
-⭐ Core
+* AI image generator using ClipDrop
+* JWT Authentication
+* Credit system (5 free + paid plans)
+* Razorpay checkout
+* Smooth UI animations
+* Toast notifications
+* Fast builds with Vite
 
-AI image generation using ClipDrop
+---
 
-JWT-secured authentication
+# 🛠 **Tech Stack**
 
-Credit-based system
+### **Frontend**
 
-⭐ Payments
+* React
+* Vite
+* Framer Motion
+* React-Toastify
 
-Razorpay integration
+### **Backend**
 
-3 credit purchase plans
+* Node.js
+* Express.js
+* JWT Authentication
+* Razorpay SDK
+* ClipDrop API
 
-Transaction logging
+### **Database**
 
-⭐ Frontend
+* MongoDB + Mongoose
 
-React + Vite for fast builds
+---
 
-Framer Motion animations
+# 📥 Installation & Setup
 
-React-Toastify alerts
+## Clone Repository
 
-⭐ Backend
-
-Express.js REST APIs
-
-Modular MVC architecture
-
-Environment-based configuration
-
-🛠 Tech Stack
-Frontend
-
-React
-
-Vite
-
-Framer Motion
-
-React Toastify
-
-Backend
-
-Node.js
-
-Express.js
-
-JWT Auth
-
-Razorpay API
-
-ClipDrop API
-
-Database
-
-MongoDB + Mongoose
-
-📥 Installation & Setup
-1️⃣ Clone the repo
+```bash
 git clone https://github.com/yourusername/imagify.git
 cd imagify
+```
 
-📦 Frontend Setup (React + Vite)
+---
+
+# 🧩 Frontend Setup
+
+```bash
 cd client
 npm install
 npm run dev
+```
 
-Client .env
+### Frontend `.env`
+
+```
 VITE_BACKEND_URL=http://localhost:5000
-VITE_RAZORPAY_KEY_ID=your_key_id
+VITE_RAZORPAY_KEY_ID=your_razorpay_key
+```
 
-🔧 Backend Setup (Node + Express)
+---
+
+# 🔧 Backend Setup
+
+```bash
 cd server
 npm install
 npm run server
+```
 
-Server .env
-MONGO_URI=your_connection_string
-JWT_SECRET=your_jwt_secret
-CLIPDROP_API_KEY=your_clipdrop_api_key
+### Backend `.env`
+
+```
+MONGO_URI=your_mongo_uri
+JWT_SECRET=your_secret
+CLIPDROP_API_KEY=your_clipdrop_key
 
 RAZORPAY_KEY_ID=your_key_id
-RAZORPAY_KEY_SECRET=your_key_secret
+RAZORPAY_KEY_SECRET=your_secret
+```
 
-📚 Folder Structure
-Client (Frontend — React + Vite)
+---
+
+# 📂 Folder Structure (Fixed & Non-Collapsing)
+
+## **Client (React + Vite)**
+
+```
 client/
 │
 ├── index.html
@@ -182,14 +214,23 @@ client/
 │
 └── src/
     ├── assets/
+    │
     ├── components/
+    │
     ├── context/
+    │
     ├── pages/
+    │
     ├── App.jsx
     ├── main.jsx
     └── index.css
+```
 
-Server (Backend — Node + Express)
+---
+
+## **Server (Node + Express)**
+
+```
 server/
 │
 ├── server.js
@@ -212,23 +253,38 @@ server/
 └── routes/
     ├── imageRoutes.js
     └── userRoutes.js
+```
 
-📌 API Overview
-User API
-Method	Route	Description
-POST	/api/user/register	Create a new user
-POST	/api/user/login	Authenticate user
-AI Image API
-Method	Route	Description
-POST	/api/image/generate	Generate AI image (protected)
-Payment API
-Method	Route	Description
-POST	/api/user/create-order	Razorpay order creation
-POST	/api/user/verify-payment	Payment verification
-🙌 Contributing
+---
 
-Contributions, issues, and feature requests are welcome!
+# 📌 API Overview
 
-📝 License
+### **User API**
+
+| Method | Route                | Description       |
+| ------ | -------------------- | ----------------- |
+| POST   | `/api/user/register` | Register new user |
+| POST   | `/api/user/login`    | User login        |
+
+### **AI Image API**
+
+| POST | `/api/image/generate` | Generate AI image (requires auth) |
+
+### **Payment API**
+
+| POST | `/api/user/create-order` | Create Razorpay order |
+| POST | `/api/user/verify-payment` | Verify payment & credit user |
+
+---
+
+# 🙌 Contributing
+
+PRs, suggestions & enhancements are welcome!
+
+---
+
+# 📝 License
 
 MIT License © 2025 Imagify
+
+---
