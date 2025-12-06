@@ -15,6 +15,7 @@
 <img src="https://img.shields.io/badge/ClipDrop%20API-FF6C37?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Framer%20Motion-E415A8?style=for-the-badge&logo=framer&logoColor=white" />
 <img src="https://img.shields.io/badge/React--Toastify-FF9800?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render&logoColor=white" />
 
 </p>
 
@@ -29,6 +30,8 @@
 </p>
 
 ---
+## 🚀 The project is live on  
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-blue?logo=render)](https://imagify-ai-text-to-image-generator-woww.onrender.com/)
 
 # ⭐ **Project Overview (STAR Method)**
 
