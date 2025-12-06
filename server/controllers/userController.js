@@ -75,9 +75,9 @@ const razorpayInstance = new razorpay({
 });
 
 const PLANS = {
-  Basic: { name: "Basic", credits: 100, amount: 10 },
-  Advanced: { name: "Advanced", credits: 500, amount: 50 },
-  Business: { name: "Business", credits: 5000, amount: 250 }
+  Basic: { name: "Basic", credits: 100, amount: 100 },
+  Advanced: { name: "Advanced", credits: 500, amount: 250 },
+  Business: { name: "Business", credits: 5000, amount: 400 }
 };
 
 const paymentRazorpay = async (req, res) => {
