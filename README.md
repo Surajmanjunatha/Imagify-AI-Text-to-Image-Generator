@@ -1,14 +1,8 @@
 # 🌟 **IMAGIFY — AI TEXT-TO-IMAGE SAAS**
 
-<p align="center">
-  <img src="client/src/assets/logo.svg" alt="Imagify Hero Banner" width="100%">
-</p>
-
 > *Turn your words into stunning visuals — powered by ClipDrop AI and built with MERN + Vite.*
 
 ---
-
-# 🔖 **Tech Stack Badges**
 
 <p align="center">
 
@@ -23,18 +17,6 @@
 <img src="https://img.shields.io/badge/React--Toastify-FF9800?style=for-the-badge" />
 
 </p>
-
----
-
-# 🎥 **GIF Demo**
-
-<p align="center">
-  <img src="assets/imagify-demo.gif" alt="Imagify Demo GIF" width="80%">
-</p>
-
----
-
-# 🖼 **Screenshots (4-Image Collage)**
 
 <p align="center">
   <img src="client/src/assets/screenshot1.png" width="45%" />
@@ -202,7 +184,7 @@ RAZORPAY_KEY_SECRET=your_secret
 
 ---
 
-# 📂 Folder Structure (Fixed & Non-Collapsing)
+# 📂 Folder Structure 
 
 ## **Client (React + Vite)**
 
